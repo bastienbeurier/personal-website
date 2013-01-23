@@ -3,11 +3,11 @@
 /*main page properties*/
 
 html{
-  height: 100%;
+  height:2000px;
 }
 
 body{
-  height: 100%;
+  height:2000px;
   font-family: 'Century Gothic', sans-serif;
   font-size: 13px;
   line-height: 19px;
@@ -84,25 +84,26 @@ p {
 /*global classes*/
 
 #wrapper{
-  height: 100%;
+  position: relative;
+  height:2000px;
+  min-width: 1600px;
 }
 
 .section{
+  height:100%;
   background: #000;
   position: relative;
   overflow: hidden;
-  height: 100%;
+  min-height: 1200px;
 }
 
 .content{
-  width: 1400px;
-  height: 870px;
+  width: 1300px;
+  height: 800px;
+  vertical-align: middle;
+  margin: auto;
   position: relative;
   overflow: hidden;
-  margin: auto;
-  top: 50%;
-  margin-top: -430px;
-  min-height: 870px;
 }
 
 .hidden {
@@ -115,15 +116,15 @@ p {
 
 #home_title {
   top: 390px;
-  left: 100px;
+  left: 70px;
   position: absolute;
-  width: 600px;
+  width: 500px;
   text-align: center;
 }
 
 #home_image {
   position: absolute;
-  right: 20px;
+  right: -20px;
   top: 50%;
   height: 400px;
   width: 565px;
@@ -134,22 +135,10 @@ p {
 
 /*bio*/
 
-#bio_title {
-  top: 20px;
-  left: 500px;
-  position: absolute;
-}
-
-#bio_title_content {
-  width: 400px;
-  text-align: center;
-  position: relative;
-}
-
 #bio_content {
-  width: 270px;
+  width: 370px;
   position:absolute;
-  top: 150px;
+  top: 80px;
   left: 130px;
   z-index: 1000;
 }
@@ -161,32 +150,32 @@ p {
 #bio_image_left {
   position: absolute;
   left: -30px;
-  bottom: 320px;
+  bottom: 350px;
 }
 
 #bio_image_right {
   position: absolute;
-  left: 300px;
-  bottom: 320px;
+  left: 400px;
+  bottom: 350px;
   z-index: 200;
 }
 
 .background_title {
   position: absolute;
-  left: 160px;
-  top: 100px;
+  left: 220px;
+  top: 40px;
 }
 
 .skills_title {
   position: absolute;
   right: 140px;
-  top: 100px;
+  top: 40px;
 }
 
 .projects_title {
   position: absolute;
-  left: 550px;
-  top: 540px;
+  left: 520px;
+  top: 480px;
   z-index: 1000;
 }
 /*bio end*/
@@ -207,7 +196,7 @@ p {
 
 #skill_sets {
   right: -10px;
-  top: 170px;
+  top: 80px;
   position: absolute;
   z-index: 1000;
   li {margin-top: 5px;}
@@ -217,6 +206,10 @@ p {
   width: 125px;
   display: inline-block;
   margin-right: 20px;
+}
+
+.skill_set li {
+  margin-bottom: 7px;
 }
 
 .skill_divider {
@@ -229,13 +222,13 @@ p {
 #skills_image_left {
   position: absolute;
   right: 330px;
-  bottom: 320px;
+  bottom: 340px;
 }
 
 #skills_image_right {
   position: absolute;
   right: 40px;
-  bottom: 320px;
+  bottom: 340px;
 }
 
 /*skills end*/
@@ -274,14 +267,14 @@ p {
 
 #first_project{
   position: absolute;
-  left: 460px;
-  bottom: 150px;
+  left: 430px;
+  bottom: 120px;
 }
 
 #second_project{
   position: absolute;
-  right: 460px;
-  bottom: 150px;
+  right: 420px;
+  bottom: 120px;
 }
 
 .project:hover{
@@ -292,7 +285,7 @@ p {
 
 #projects_image {
   position: absolute;
-  left: 550px;
+  left: 510px;
   bottom: 0px;
 }
 
@@ -301,7 +294,7 @@ p {
 /*interests*/
 
 #interests_title {
-  bottom: 50px;
+  bottom: 20px;
   left: 20px;
   position: absolute;
   z-index: 500;
@@ -313,25 +306,20 @@ p {
   width: 650px;
   height: 650px;
   position: absolute;
-  left: 400px;
-  bottom: 230px;
+  left: 300px;
+  bottom: 180px;
   z-index: 1000;
 }
 
 .interest_link:link, .interest_link:visited {
-  color: #fff;
   font-family: 'Open Sans', Arial, sans-serif;
   font-weight: 400;
-}
-
-.interest_link:hover {
-  text-decoration: none;
 }
 
 #interests_image {
   position: absolute;
   right: 200px;
-  bottom: -200px;
+  bottom: -230px;
 }
 
 .link1 {
@@ -386,6 +374,11 @@ p {
   color: #5C5C5C;
 }
 
+#interest_ball a:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
 .link1 {
   position:absolute;
   top: 290px;
@@ -406,8 +399,8 @@ p {
 
 .link7 {
   position:absolute;
-  top: 260px;
-  left: 160px;
+  top: 250px;
+  left: 200px;
 }
 
 .link9 {
@@ -430,7 +423,7 @@ p {
 
 .link15 {
   position:absolute;
-  top: 20px;
+  top: 35px;
   left: 240px;
 }
 
@@ -490,20 +483,20 @@ p {
 
 .link35 {
   position: absolute;
-  top: 50px;
-  left: 300px;
+  top: 60px;
+  left: 340px;
 }
 
 .link37 {
   position: absolute;
-  top: 175px;
+  top: 320px;
   left: 230px;
 }
 
 .link39 {
   position: absolute;
-  top: 150px;
-  left: 230px;
+  top: 160px;
+  left: 240px;
 }
 
 .link41 {
@@ -556,8 +549,8 @@ p {
 
 .link57 {
   position: absolute;
-  top: 180px;
-  left: 50px;
+  top: 380px;
+  left: 90px;
 }
 
 .link59 {
@@ -598,20 +591,20 @@ p {
 
 .link12 {
   position:absolute;
-  bottom: 250px;
-  right: 430px;
+  bottom: 220px;
+  right: 440px;
 }
 
 .link14 {
   position:absolute;
   bottom: 100px;
-  right: 50px;
+  right: 90px;
 }
 
 .link16 {
   position:absolute;
   bottom: 10px;
-  right: 200px;
+  right: 230px;
 }
 
 .link18 {
@@ -635,7 +628,7 @@ p {
 .link24 {
   position:absolute;
   bottom: 60px;
-  right: 100px;
+  right: 140px;
 }
 
 .link26 {
@@ -671,13 +664,13 @@ p {
 .link36 {
   position: absolute;
   bottom: 40px;
-  right: 330px;
+  right: 290px;
 }
 
 .link38 {
   position: absolute;
   bottom: 30px;
-  right: 130px;
+  right: 190px;
 }
 
 .link40 {
@@ -713,13 +706,13 @@ p {
 .link50 {
   position: absolute;
   bottom: 130px;
-  right: 40px;
+  right: 55px;
 }
 
 .link52 {
   position: absolute;
-  bottom: 215px;
-  right: 575px;
+  bottom: 275px;
+  right: 595px;
 }
 
 .link54 {
@@ -746,16 +739,13 @@ p {
 
 #connect_title {
   bottom: 250px;
-  left: 570px;
+  left: 545px;
   position: absolute;
   z-index: 500;
-  width: 260px;
   text-align: center;
 }
 
 #facebook_icon {
-  width: 150px;
-  height: 150px;
   position: absolute;
   top: 200px;
   left: 200px;
@@ -781,7 +771,7 @@ p {
   height: 150px;
   position: absolute;
   top: 200px;
-  left: 650px;
+  left: 580px;
 }
 
 #mail_icon a {
@@ -868,8 +858,8 @@ div#preload { display: none; }
 #arrow-controls a{
   display: block;
   position: absolute;
-  padding: 12px 10px 5px;
-  padding-right: 12px;
+  padding: 10px 8px 3px;
+  padding-right: 10px;
   -webkit-border-radius: 15px;
   -moz-border-radius: 15px;
   border-radius: 15px;
@@ -879,24 +869,9 @@ div#preload { display: none; }
 }
 
 #arrow-controls.light a{
-  border: 3px solid #fff;
+  border: 2px solid #fff;
   background: #000;
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8f6f6', endColorstr='#e8e7e7',GradientType=0 ); /* IE6-9 */
-}
-
-#arrow-controls.dark a{
-  border: 7px solid #1c1c1c;
-  -webkit-box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, .3);
-  -moz-box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, .3);
-  box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, .3);
-  background: #f8f6f6; /* Old browsers */
-  background: -moz-linear-gradient(top,  #3f3f3f 0%, #292929 100%); /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#3f3f3f), color-stop(100%,#292929)); /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(top,  #3f3f3f 0%,#292929 100%); /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(top,  #3f3f3f 0%,#292929 100%); /* Opera 11.10+ */
-  background: -ms-linear-gradient(top,  #3f3f3f 0%,#292929 100%); /* IE10+ */
-  background: linear-gradient(top,  #3f3f3f 0%,#292929 100%); /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3f3f3f', endColorstr='#292929',GradientType=0 ); /* IE6-9 */
 }
 
 #arrow-controls a:hover{
