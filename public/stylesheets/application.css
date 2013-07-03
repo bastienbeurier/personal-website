@@ -139,7 +139,7 @@ p {
   width: 370px;
   position:absolute;
   top: 80px;
-  left: 130px;
+  left: 150px;
   z-index: 1000;
 }
 
@@ -168,13 +168,13 @@ p {
 
 .skills_title {
   position: absolute;
-  right: 140px;
+  right: 220px;
   top: 40px;
 }
 
 .projects_title {
   position: absolute;
-  left: 520px;
+  left: 480px;
   top: 480px;
   z-index: 1000;
 }
