@@ -410,7 +410,7 @@ mixpanel.init("f7bd5415f721aa38f610eea955234c33");
 
   //Mixpanel
   $(".interest_link").click(function() { 
-    mixpanel.track('Inrest link clicked', { 'link': $(this).html() });
+    mixpanel.track('Interest link clicked', { 'link': $(this).html() });
   });
 
   $(".facebook_link").click(function() { 
@@ -421,6 +421,11 @@ mixpanel.init("f7bd5415f721aa38f610eea955234c33");
     alert("You can send me a mail at bastienbeurier@gmail.com");
     event.preventDefault();
     mixpanel.track('Contact link clicked', { 'link': 'mail' });
+  });
+
+  $("#first_project").click(function(event) { 
+    alert("Launching in fall 2013!");
+    event.preventDefault();
   });
 
   $(".linkedin_link").click(function() { 
