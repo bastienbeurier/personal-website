@@ -115,7 +115,7 @@ p {
 /*home*/
 
 #home_title {
-  top: 390px;
+  top: 200px;
   left: 70px;
   position: absolute;
   width: 500px;
@@ -806,6 +806,87 @@ p {
   position:absolute;
   top: 0px;
   bottom: 0px;
+}
+
+#shout_icon {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  bottom: 320px;
+  left: 70px;
+}
+
+#shout_icon a {
+  width: 300px;
+  height: 300px;
+  display: block;
+  background: url('../images/shout.png') no-repeat;
+  background-size: 100px 100px;
+  position:absolute;
+  top: 0px;
+  left: 0px;
+}
+
+#selflip_icon {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  bottom: 320px;
+  left: 270px;
+}
+
+#selflip_icon a {
+  width: 300px;
+  height: 300px;
+  display: block;
+  background: url('../images/selflip.png') no-repeat;
+  background-size: 100px 100px;
+  position:absolute;
+  top: 0px;
+  bottom: 0px;
+}
+
+#snapby_icon {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  bottom: 320px;
+  left: 470px;
+}
+
+#snapby_icon a {
+  width: 300px;
+  height: 300px;
+  display: block;
+  background: url('../images/snapby.png') no-repeat;
+  background-size: 100px 100px;
+  position:absolute;
+  top: 0px;
+  bottom: 0px;
+}
+
+#shout_label {
+  position: absolute;
+  bottom: 320px;
+  left: 93px; 
+}
+
+#selflip_label {
+  position: absolute;
+  bottom: 320px;
+  left: 290px; 
+}
+
+#snapby_label {
+  position: absolute;
+  bottom: 320px;
+  left: 486px; 
+}
+
+#contact_label {
+  position: absolute;
+  bottom: 200px;
+  left: 170px; 
 }
 
 #linkedin_icon a:hover {
