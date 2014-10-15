@@ -808,12 +808,31 @@ p {
   bottom: 0px;
 }
 
+#waved_icon {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  bottom: 320px;
+  left: 60px;
+}
+
+#waved_icon a {
+  width: 300px;
+  height: 300px;
+  display: block;
+  background: url('../images/waved.png') no-repeat;
+  background-size: 100px 100px;
+  position:absolute;
+  top: 0px;
+  left: 0px;
+}
+
 #shout_icon {
   width: 150px;
   height: 150px;
   position: absolute;
   bottom: 320px;
-  left: 70px;
+  left: 200px;
 }
 
 #shout_icon a {
@@ -832,7 +851,7 @@ p {
   height: 150px;
   position: absolute;
   bottom: 320px;
-  left: 270px;
+  left: 340px;
 }
 
 #selflip_icon a {
@@ -851,7 +870,7 @@ p {
   height: 150px;
   position: absolute;
   bottom: 320px;
-  left: 470px;
+  left: 480px;
 }
 
 #snapby_icon a {
@@ -865,22 +884,28 @@ p {
   bottom: 0px;
 }
 
+#waved_label {
+  position: absolute;
+  bottom: 320px;
+  left: 78px; 
+}
+
 #shout_label {
   position: absolute;
   bottom: 320px;
-  left: 93px; 
+  left: 224px; 
 }
 
 #selflip_label {
   position: absolute;
   bottom: 320px;
-  left: 290px; 
+  left: 365px; 
 }
 
 #snapby_label {
   position: absolute;
   bottom: 320px;
-  left: 486px; 
+  left: 496px; 
 }
 
 #contact_label {
