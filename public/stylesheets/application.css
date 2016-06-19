@@ -1,9 +1,11 @@
 body {
   font-family: "PT Mono", sans-serif;
-  font-size: 14px;
-  line-height: 15px;
+  font-size: 22px;
+  line-height: 19px;
   color: #fff;
   background: #282b36;
+  margin-top: 40px;
+  margin-left: 10px;
 }
 
 a {
